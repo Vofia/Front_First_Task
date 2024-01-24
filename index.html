@@ -1,68 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Налоговый вычет</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lab+Grotesque:wght@400;500&display=swap" />
     <link rel="stylesheet" href="style.css" />
-    <title>Задание 1</title>
-  </head>
-  <body>
-    <div class="box">
-        <div class="rectangle"></div>
-        <div class="div-wrapper">
-            <div class="div">
-              <h1 class="text-wrapper">Налоговый вычет</h1>
-              <img class="jam-close" src="img/jam_close.svg" />
-              <p class="element">
-                Используйте налоговый вычет чтобы погасить ипотеку досрочно. <br />Размер налогового вычета составляет не
-                более 13% от своего официального годового дохода.
-              </p>
-              <div class="input-filled">
-                <div class="text-wrapper-7">Ваша зарплата в месяц</div>
-                <div class="overlap-group-wrapper">
-                  <div class="overlap-group">
-                    <div class="text-wrapper-6">50 000 ₽</div>
-                  </div>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="div-filled">
+            <div class="jam-close"></div>
+            <div class="flex-column-f">
+                <h1 class="tax-deduction">Налоговый вычет</h1>
+                <span class="tax-deduction-description">
+                    Используйте налоговый вычет чтобы погасить ипотеку досрочно. <br> Размер
+                    налогового вычета составляет не более 13% от своего официального
+                    годового дохода.</span>
+                <div class="input-filled">
+                    <label class="monthly-salary">Ваша зарплата в месяц</label>
+                    <input class="group-input" type="number" placeholder="Введите размер зарплаты" />
+                    <span class="span-calculate">Рассчитать</span>
                 </div>
-              </div>
-              <div class="text-wrapper-9">Рассчитать</div>
-              <p class="p">Итого можете внести в качестве досрочных:</p>
-              <div class="group-2">
-                <p class="element-2">
-                  <span class="span">78 000 рублей</span> 
-                  <span class="text-wrapper-8"> в 1-ый год</span>
-                </p>
-                <img class="mdi-done" src="img/mdi_done.svg" />
-              </div>
-              <div class="group-3">
-                <p class="element-3">
-                  <span class="span">78 000 рублей </span> 
-                  <span class="text-wrapper-8">во 2-ой год</span>
-                </p>
-                <img class="mdi-done" src="img/mdi_done.svg" />
-              </div>
-              <div class="group-4">
-                <p class="element-3">
-                  <span class="span">78 000 рублей </span> 
-                  <span class="text-wrapper-8">в 3-ий год</span>
-                </p>
-                <img class="mdi-done" src="img/mdi_done.svg" />
-              </div>
-              <p class="element-4">
-                <span class="span">26 000 рублей </span> 
-                <span class="text-wrapper-8">в 4-ый год</span>
-              </p>
-              <div class="rectangle"></div>
-              <div class="rectangle-2"></div>
-              <div class="rectangle-3"></div>
-              <div class="rectangle-4"></div>
-              <img class="checkbox-normal" src="img/checkbox_normal.svg" />
-              <div class="group">
-                <div class="text-wrapper-2">Что уменьшаем?</div>
-                <div class="tag"><div class="text-wrapper-3">Платёж</div></div>
-                <div class="tag-2"><div class="text-wrapper-4">Срок</div></div>
-              </div>
-              <button class="btn"><div class="text-wrapper-5">Добавить</div></button>
+                <span class="span-total">Итого можете внести в качестве досрочных:</span>
+                <div class="group-2">
+                    <div class="year-amount">
+                        <span class="span-amount">78 000 рублей</span>
+                        <span class="span-year">в 1-ый год</span>
+                    </div>
+                    <input class="mdi-done" type="checkbox"/>
+                </div>
+                <div class="rectangle-3"></div>
+                <div class="group-4">
+                    <div class="rubles-in-year">
+                        <span class="rubles">78 000 рублей</span>
+                        <span class="in-2nd-year">во 2-ой год</span>
+                    </div>
+                    <input class="mdi-done-5" type="checkbox"/>
+                </div>
+                <div class="rectangle-6"></div>
+                <div class="group-7">
+                    <div class="rubles-in-year-8">
+                        <span class="rubles-9">78 000 рублей</span>
+                        <span class="third-year">в 3-ий год</span>
+                    </div>
+                    <input class="done" type="checkbox"/>
+                </div>
+                <div class="rectangle-a"></div>
+                <div class="group-5">
+                    <div class="year-amount-e">
+                        <span class="amount">26 000 рублей</span>
+                        <span class="year">в 4-ый год</span>
+                    </div>
+                    <input class="checkbox-normal" type="checkbox"/>
+                </div>
+                <div class="rectangle-b"></div>
+                <div class="group-c">
+                    <label class="decrease-what">Что уменьшаем? </label>
+                    <button class="tag">Платёж</button>
+                    <button class="tag-d">Срок</button>
+                </div>
+                <button class="btn">Добавить</button>
             </div>
-          </div>
+        </div>
+        <div class="rectangle-f"></div>
     </div>
-  </body>
+</body>
+
 </html>
