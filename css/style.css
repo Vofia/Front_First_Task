@@ -46,7 +46,7 @@ button {
   height: calc(40 * var(--rpx));
   top: calc(16 * var(--rpx));
   left: calc(496 * var(--rpx));
-  background: url(./assets/images/8585a5a0-923e-445d-ab0d-822d1edf084a.png) no-repeat center;
+  background: url(Vofia.github.io/Front_First_Task/img/jam_close.svg) no-repeat center;
   background-size: cover;
   z-index: 3;
   overflow: hidden;
@@ -289,8 +289,6 @@ input::placeholder {
   position: absolute;
   width: calc(20 * var(--rpx));
   height: calc(20 * var(--rpx));
-  background: url(./assets/images/613f84db-efb3-423f-8f46-b676edf021c9.png) no-repeat center;
-  background-size: cover;
   z-index: 25;
   overflow: hidden;
 }
@@ -352,8 +350,6 @@ input::placeholder {
   position: absolute;
   width: calc(20 * var(--rpx));
   height: calc(20 * var(--rpx));
-  background: url(./assets/images/6d1ecc7a-7318-4f3e-b9aa-8b55f0ec66af.png) no-repeat center;
-  background-size: cover;
   z-index: 28;
   overflow: hidden;
 }
@@ -604,8 +600,6 @@ input::placeholder {
   width: calc(20 * var(--rpx));
   height: calc(20 * var(--rpx));
   margin-top: calc(18 * var(--rpx));
-  background: url(./assets/images/3431f129-754b-4483-8c79-596728f4e9d0.png) no-repeat center;
-  background-size: cover;
   z-index: 34;
   overflow: hidden;
 }
